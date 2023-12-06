@@ -1,5 +1,6 @@
 from pizza_builder import PizzaBuilder
 
+
 class VeggieLoversPizzaBuilder(PizzaBuilder):
     def add_cheese(self):
         self._pizza.toppings.append('parmesan')
